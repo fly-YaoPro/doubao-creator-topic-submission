@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.1",
+  "mode": "audit",
+  "stage": "plan",
+  "state": "DISCOVERED",
+  "batch": {
+    "date": "",
+    "timezone": "Asia/Shanghai",
+    "user_overrides": []
+  },
+  "brief": {
+    "url": "",
+    "title": "",
+    "revision": null
+  },
+  "source": {
+    "url": "",
+    "token": "",
+    "object_type": "",
+    "initial_revision": null,
+    "revision_read": null,
+    "revision_before_copy": null,
+    "revision_after_copy": null,
+    "revision_prewrite": null,
+    "replan_generation": 0,
+    "old_copy_invalidated": false,
+    "remap_evidence": [],
+    "target_sheet_id": "",
+    "creator_skill_sheet_id": "",
+    "expected_source_rows": [],
+    "creator_skill_expected_rows": [],
+    "creator_skill_scan_complete": false,
+    "sheet_manifest": [],
+    "writes": []
+  },
+  "copy": {
+    "token": "",
+    "source_token": "",
+    "source_revision": null,
+    "api_returned_token": "",
+    "object_type": "",
+    "manifest_verified": false,
+    "sheet_manifest": [],
+    "revision_planned": null,
+    "revision_prewrite": null,
+    "revision_postwrite": null,
+    "target_sheet_id": "",
+    "creator_skill_sheet_id": "",
+    "topic_column": ""
+  },
+  "pool": {
+    "url": "",
+    "token": "",
+    "sheet_id": "",
+    "revision_planned": null,
+    "revision_prewrite": null,
+    "revision_postwrite": null,
+    "allowed_columns": [],
+    "field_columns": {},
+    "snapshot_complete": false,
+    "snapshot_rows": [],
+    "existing_keys": [],
+    "postwrite_keys": [],
+    "postwrite_key_rows": {}
+  },
+  "headers": {
+    "target": {
+      "creator": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "homepage": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "agency": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "status": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "topic": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "feedback": {"sheet_id": "", "header": "", "column": "", "match_count": 0}
+    },
+    "creator_skill": {
+      "creator": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "homepage": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "agency": {"sheet_id": "", "header": "", "column": "", "match_count": 0},
+      "status": {"sheet_id": "", "header": "", "column": "", "match_count": 0}
+    }
+  },
+  "history": {
+    "snapshot_complete": false,
+    "sources": [],
+    "duplicate_keys": []
+  },
+  "rows": [],
+  "pool_candidates": [],
+  "writes": [],
+  "transactions": {},
+  "counts": {
+    "decision_total": 0,
+    "submit": 0,
+    "business_block": 0,
+    "needs_evidence": 0,
+    "retopic": 0,
+    "anomaly": 0,
+    "pending_detected": 0,
+    "inserted": 0,
+    "updated": 0,
+    "noop_existing": 0,
+    "rejected_anomaly": 0,
+    "writes_planned": 0,
+    "writes_succeeded": 0,
+    "writes_failed": 0,
+    "writes_skipped": 0
+  },
+  "report": {
+    "action": "preview",
+    "title": "",
+    "title_readback": "",
+    "token": "",
+    "revision_postcreate": null,
+    "expected_rows": [],
+    "actual_rows": [],
+    "expected_document_sha256": "",
+    "actual_document_sha256": "",
+    "preview_verified": false,
+    "readback_verified": false
+  },
+  "readback": {
+    "copy_addresses": [],
+    "pool_addresses": []
+  }
+}

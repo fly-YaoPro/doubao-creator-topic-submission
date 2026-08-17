@@ -1,0 +1,36 @@
+{
+  "row": 2,
+  "creator": "达人昵称",
+  "profile_key": "platform:host/profile/id",
+  "fingerprint": "platform|profile_key|creator|agency|status|note|raw_homepage|row",
+  "decision": "SUBMIT",
+  "reason_code": "BRIEF_FIT_UNIQUE_TOPIC",
+  "brief_fit": true,
+  "protection_block": false,
+  "historical_match": {
+    "status": "none",
+    "matched_duplicate_keys": [],
+    "evidence": []
+  },
+  "block_evidence": {},
+  "evidence_gap": {},
+  "retopic_attempts": [],
+  "anomaly_detail": {},
+  "evidence": [
+    "主页或表格证据链接"
+  ],
+  "fix_condition": "已满足；非 SUBMIT 时写明解除、补证或换题条件",
+  "owner_action": "agent_write_copy",
+  "pc_hits": [
+    "PC-1",
+    "PC-2"
+  ],
+  "main_skill": "应用生成 Skill",
+  "core_task": "把错题整理成可反复复盘的练习流程",
+  "key_input": "错题图片和课程章节",
+  "final_artifact": "可保存进度的错题复盘网页",
+  "lifecycle": "长期反复使用",
+  "duplicate_key": "把错题整理成可反复复盘的练习流程|错题图片和课程章节|可保存进度的错题复盘网页|长期反复使用",
+  "topic": "身份：学习方法博主\n功能：应用生成 Skill\n痛点 / 场景：复盘错题时图片、章节和重做结果散在多个文件里，难以持续追踪。\n具体实现与步骤：导入错题图片和课程章节后由豆包归类题型并生成可保存进度、反复重做的错题复盘网页。",
+  "existing_topic_policy": "SUBMIT 且写前重验通过时才 set；标准流程不清空单元格"
+}
