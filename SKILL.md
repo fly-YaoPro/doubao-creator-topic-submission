@@ -1,8 +1,8 @@
 ---
 name: doubao-creator-topic-submission
-version: 1.1.0
 description: "执行豆包达人选题的飞书提报全流程。当用户给出 brief 与飞书 Wiki/Sheets，或说‘跑今天的表’‘今天的表来了，开跑’‘按 brief 跑新表’‘达人选题提报’‘补提/复核未通过达人’‘同步创作 Skill 待定’‘达人囤积’时使用。负责读取实时 brief、定位日表、复制整本工作簿、调研与生成四段式 PC Skill 选题、只写副本并回读、把同日创作 Skill 中是否合作精确等于待定的达人同步到固定长期池，并生成未通过明细飞书文档。"
 metadata:
+  version: 1.1.0
   requires:
     bins: ["lark-cli"]
 ---
